@@ -1,0 +1,63 @@
+/* src/App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  display: flex; /* Enable side-by-side layout */
+  flex: 1; /* Allow it to take the available space */
+}
+
+nav {
+  width: 200px; /* Set a fixed width for the navigation */
+  background: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 15px 0; /* Vertical spacing between items */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  flex: 1; /* This makes the main section take the available space */
+  padding: 20px;
+  background: white;
+}
+
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Faz o footer encostar no fundo */
+}
